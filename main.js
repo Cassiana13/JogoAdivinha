@@ -25,9 +25,7 @@ function handleTryClick(event) {
     ).innerText = `Acertou em ${xAttempts} tentativas`;
   }
 
-  if (inputNumber.value < 0 || 11) {
-    alert("Por favor colocar número de 0 a 10");
-  }
+
   xAttempts++;
 }
 function handleResetClick() {
